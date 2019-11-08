@@ -121,14 +121,13 @@
 		width: 100%;
 		height: 100%;
 	}
-	header { position: absolute; top: 0px; left: 0px; width:100%; text-align: center; line-height: 1.5em; }
+	header { position: relative; top: 0px; left: 0px; width:100%; text-align: center; line-height: 1.5em; }
 	header { padding-top: 1em; }
 	header h2 { margin-bottom: 0px; }
-	#app { }
 	#main { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow-y: auto; }
 	#start { position: relative; display: inline-block; left: 50%; top: 50%; transform: translate3d(-50%, -50%, 0); text-align: center; }
 	#btn-start { margin: auto; margin-top: 1em; }
-	#decision { padding: 3em; display: none; }
+	#decision { padding: 2em; display: none; }
 	.grid > li > div { text-align: center; position: relative; }
 	.grid > li > div button { display: block; width: 100%; text-align: center; font-size: 1.5em; font-weight: bold; }
 	.description { min-height: 4.5em; }
@@ -154,9 +153,12 @@
 	h2 a, h3 a, p a, p a:visited { color: inherit; }
 	h1 + p { margin-top: 1em; }
 	p.more { text-align: center; }
-	.credit { font-size: 0.8em; line-height: 1em; min-height: 2em; margin-top: 0.5em; color: #aaa; text-align: center; }
+	.credit { font-size: 0.8em; line-height: 1em; margin-top: 0.5em; color: #aaa; text-align: center; }
 	#message > div { font-size: 0.8em; }
 	#message > div a { color: inherit; }
+	@media only screen and (max-width: 1020px) {
+		.credit { min-height: 2em; }
+	}
 	@media only screen and (max-width: 800px) {
 		.image-cropper { width: 112px; max-width: 100%; max-height: 112px; }
 	}
