@@ -55,7 +55,6 @@
 				var n = 0;
 				var html = '';
 				for(var o in st.options) n++;
-				console.log(n%2)
 				for(var o in st.options){
 					html += '<li><div class="b5-bg">';
 					html += '<figure>';
@@ -67,13 +66,13 @@
 					//html += '<br />['+this.numberOfResults(this.key,this.step,o)+' trees]';
 					html += '</p><button class="leaf thumb-button" id="answer-'+o+'">'+o.toUpperCase()+'</button>';
 					html += '</div>';
-					html += '</div></li>'
+					html += '</div></li>';
 				}
 				if(html) html = '<ul class="grid'+(n%2==0 ? ' two':'')+'">'+html+'</ul>';
 				if(st.more){
 					html += '<p class="more"><a href="'+st.more.url+'" target="_help">'+st.more.label+'</a></p>';
 				}
-				S('#decision .result').html(html);
+				S('#decision .result').html('<p style="text-align:center;">Choose one of the following '+n+' option'+(n==1 ? '':'s')+'</p>'+html);
 				
 				// Add events
 				for(var o in st.options){
