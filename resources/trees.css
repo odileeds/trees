@@ -370,6 +370,15 @@ select {
 	transition: background-color 0.3s ease-in, color 0.3s ease-in, background 0.3s ease-in;
 }
 
+.modal { position: absolute; width: 100%; min-height: 100%; z-index: 10000; }
+.modal > div { position: absolute; left: 0; top: 0; right: 0; bottom: 0; margin: 2em; }
+.modal .centre-block { width: 500px; max-width: 100%; margin: auto; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); position: absolute; }
+#splash { text-align: center; }
+#splash img { height: 100px; margin-bottom: 1em; }
+#splash h1 { margin-top: 0em; }
+#splash p { margin-top: 1em; }
+#app { display: none; }
+
 @media only screen and (max-width: 700px) {
 	h1 { line-height: 1em; }
 	select { width: 100%; }
