@@ -1,0 +1,1451 @@
+{
+	"keys": {
+		"master":{
+			"label": "Master key: types of tree found in gardens and urban areas",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Leaves needle-like or scale-like and often overlapping",
+							"img": "images/master-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step1"}
+						},
+						"b":{
+							"label": "Leaves not needle-like, scale-like or overlapping",
+							"img": "images/master-step1-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"master","step":"step2"}
+						}
+					},
+					"more":{
+						"label": "Tips on identifying leaves and needles",
+						"url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees/#ipn-leavesandneedles"
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Leaves in pairs, opposite each other on shoots",
+							"img": "images/master-step2-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key2","step":"step1"}
+						},
+						"b":{
+							"label": "Leaves alternate on shoots",
+							"img": "images/master-step2-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"master","step":"step3"}
+						}
+					},
+					"more":{
+						"label": "Tips on identifying leaves and needles",
+						"url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees/#ipn-leavesandneedles"
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Leaves divided into separate leaflets",
+							"img": "images/master-step3-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key3","step":"step1"}
+						},
+						"b":{
+							"label": "Leaves with one blade, possibly indented into lobes, but not divided into leaflets",
+							"img": "images/master-step3-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"master","step":"step4"}
+						}
+					},
+					"more":{
+						"label": "Tips on identifying leaves and needles",
+						"url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees/#ipn-leavesandneedles"
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Leaves evergreen",
+							"img": "images/master-step4-a.png",
+							"credit": "&copy; L.Miguel Bugallo Sánchez",
+							"goto": {"key":"key4","step":"step1"}
+						},
+						"b":{
+							"label": "Leaves deciduous",
+							"img": "images/master-step4-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"master","step":"step5"}
+						}
+					},
+					"more":{
+						"label": "Tips on identifying leaves and needles",
+						"url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees/#ipn-leavesandneedles"
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Fruits fleshy or juicy",
+							"img": "images/master-step5-a.png",
+							"credit": "&copy; Martin Olsson",
+							"goto": {"key":"key5","step":"step1"}
+						},
+						"b":{
+							"label": "Fruits dry",
+							"img": "images/master-step5-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step1"}
+						}
+					},
+					"more":{
+						"label": "Tips on identifying fruits and seeds",
+						"url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/british-trees/how-to-identify-trees/#ipn-fruitsandseeds"
+					}
+				}
+			}
+		},
+		"key1":{
+			"label": "Key 1: trees with leaves that are needle-like or scale-like",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "All leaves scale-like, usually pressed against the twig",
+							"img": "images/master-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step2"}
+						},
+						"b":{
+							"label": "All leaves needle-like, usually spread widely apart",
+							"img": "images/key1-step1-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step6"}
+						},
+						"c":{
+							"label": "Some leaves scale-like, others needle-like",
+							"img": "images/key1-step1-c.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step14"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Scale-leaves at least 30mm long, rigid and sharp-edged",
+							"img": "images/key1-step2-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Monkey puzzle"
+						},
+						"b":{
+							"label": "Scale-leaves less than 30mm long, not rigid or sharp",
+							"img": "images/master-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step3"}
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Deciduous tree; foliage is wispy; pink or white flowers",
+							"img": "images/key1-step3-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Tamarisks"
+						},
+						"b":{
+							"label": "Evergreen tree with cones; foliage is dense",
+							"img": "images/key1-step3-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step4"}
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Cone is egg-shaped with overlapping scales, eventually wide-spreading like petals of a flower; crushed foliage smells of pineapple",
+							"img": "images/key1-step4-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Western red cedar"
+						},
+						"b":{
+							"label": "Cone is egg- or ball-shaped, scales meet at edges and don’t overlap, scales don’t become wide-spreading; crushed foliage doesn’t smell of pineapple",
+							"img": "images/key1-step3-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step5"}
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Cone is egg-shaped with more than 15 scales; bark is very thick, with visible fibres, and is rather soft or spongy",
+							"img": "images/key1-step5-a.png",
+							"credit": "Public domain",
+							"result": "Wellingtonia"
+						},
+						"b":{
+							"label": "Cone is ball-shaped, with fewer than 10 scales; bark is hard",
+							"img": "images/key1-step3-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Cypresses"
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Needles are in two flat, parallel rows, at least on the short shoots growing off longer ones; fruit is scarlet and berry-like",
+							"img": "images/key1-step6-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Yew"
+						},
+						"b":{
+							"label": "All the needles are in clusters or are parted on either side of shoot, but not in flat rows; fruit is a woody cone",
+							"img": "images/key1-step6-b.png",
+							"credit": "&copy; Martin Fisch",
+							"goto": {"key":"key1","step":"step7"}
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "Needles are all on their own at their position on the shoot",
+							"img": "images/key1-step7-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step8"}
+						},
+						"b":{
+							"label": "Most needles grouped around the shoot, in pairs or bundles of 2 or more",
+							"img": "images/key1-step7-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step10"}
+						}
+					}
+				},
+				"step8": {
+					"options": {
+						"a":{
+							"label": "Cones stand upright on branches; needles are attached by a sucker-like base",
+							"img": "images/key1-step8-a.png",
+							"credit": "&copy; MPF",
+							"result": "Firs"
+						},
+						"b":{
+							"label": "Cones hang downwards from branches; the base of the needles are not sucker-like",
+							"img": "images/key1-step8-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step9"}
+						}
+					}
+				},
+				"step9": {
+					"options": {
+						"a":{
+							"label": "Needles leave behind their peg-like bases after falling",
+							"img": "images/key1-step9-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Spruces"
+						},
+						"b":{
+							"label": "Needles leave behind their cushion-like bases after falling",
+							"img": "images/key1-step9-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Hemlock spruces"
+						}
+					}
+				},
+				"step10": {
+					"options": {
+						"a":{
+							"label": "Most needles are in bundles of 2–5",
+							"img": "images/key1-step10-a.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key1","step":"step11"}
+						},
+						"b":{
+							"label": "Most needles are arranged around the shoot in clusters of 3, 10 or more, rarely in pairs",
+							"img": "images/key1-step10-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step12"}
+						}
+					}
+				},
+				"step11": {
+					"options": {
+						"a":{
+							"label": "Needles in bundles of 2",
+							"img": "images/key1-step11-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Pines, 2-needled"
+						},
+						"b":{
+							"label": "Needles in bundles of 3",
+							"img": "images/key1-step10-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Pines, 3-needled"
+						},
+						"c":{
+							"label": "Needles in bundles of 5",
+							"img": "images/key1-step7-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Pines, 5-needled"
+						}
+					}
+				},
+				"step12": {
+					"options": {
+						"a":{
+							"label": "Needles on all shoots are arranged in rings of 3 going around the shoot, or occasionally in pairs",
+							"img": "images/key1-step12-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Junipers"
+						},
+						"b":{
+							"label": "Needles on short shoots, in clusters of 10 or more",
+							"img": "images/key1-step12-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key1","step":"step13"}
+						}
+					}
+				},
+				"step13": {
+					"options": {
+						"a":{
+							"label": "A deciduous tree; the cones are egg-shaped",
+							"img": "images/key1-step13-a.png",
+							"credit": "Public domain",
+							"result": "Larches"
+						},
+						"b":{
+							"label": "An evergreen tree; the cones are barrel-shaped",
+							"img": "images/key1-step13-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Cedars"
+						}
+					}
+				},
+				"step14": {
+					"options": {
+						"a":{
+							"label": "Leaves of main shoots are scale-like, leaves of short shoots are needle-like, up to 20mm long, arranged in 2 rows; foliage doesn’t smell unpleasant",
+							"img": "images/key1-step14-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Coast redwood"
+						},
+						"b":{
+							"label": "Leaves mostly scale-like; those towards the tips of shoots are needle-like, in opposite pairs, 5–6mm long; crushed foliage smells unpleasant",
+							"img": "images/key1-step14-b.png",
+							"credit": "&copy; Jakub Horák",
+							"result": "Junipers"
+						}
+					}
+				}
+			}
+		},
+		"key2":{
+			"label": "Key 2: trees with broad leaves, arranged opposite each other in pairs",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Leaves palmately divided into separate leaflets, the leaflets extending from the leaf stalk",
+							"img": "images/key2-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Horse chestnuts"
+						},
+						"b":{
+							"label": "Leaves pinnately divided into separate leaflets, the leaflets in two rows on the stalk",
+							"img": "images/key2-step1-b.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"goto": {"key":"key2","step":"step2"}
+						},
+						"c":{
+							"label": "Leaves are sometimes lobed, but are not divided into leaflets",
+							"img": "images/key2-step1-c.png",
+							"credit": "&copy;  The Dow Gardens Archive, Dow Gardens, United States",
+							"goto": {"key":"key2","step":"step5"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Small trees with ridged, corky bark; the fruit is a berry",
+							"img": "images/key2-step2-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Elder"
+						},
+						"b":{
+							"label": "Tall trees with smooth or slightly wrinkled bark; fruits are dry and wing-shaped",
+							"img": "images/key2-step2-b.png",
+							"credit": "&copy; Pleple2000",
+							"goto": {"key":"key2","step":"step3"}
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Twigs are clearly flattened where the buds or leaves are attached; leaves are hairy on the underside; 1 fruit per stalk",
+							"img": "images/key2-step3-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key2","step":"step4"}
+						},
+						"b":{
+							"label": "Twigs are not flattened where the buds or leaves are attached; leaves are hairless on the underside; fruits in pairs on the stalks",
+							"img": "images/key2-step3-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Ashleaf maple"
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Flowers have no petals; winter buds are black",
+							"img": "images/key2-step4-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Ash"
+						},
+						"b":{
+							"label": "Flowers have narrow white petals; winter buds are grey or brown",
+							"img": "images/key2-step4-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Manna ash"
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Leaves are deeply palmately lobed; fruits are wing-shaped and in pairs",
+							"img": "images/key2-step5-a.png",
+							"credit": "&copy;  The Dow Gardens Archive, Dow Gardens, United States",
+							"goto": {"key":"key2","step":"step9"}
+						},
+						"b":{
+							"label": "Leaves are not lobed or are only very shallowly lobed; fruit is either a woody capsule, a berry or a long, narrow pod",
+							"img": "images/key2-step5-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key2","step":"step6"}
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Leaf edges are toothed",
+							"img": "images/key2-step6-a.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"result": "Spindles"
+						},
+						"b":{
+							"label": "Leaf edges are not toothed",
+							"img": "images/key2-step6-b.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"goto": {"key":"key2","step":"step7"}
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "An evergreen tree, leaves are usually bluish-green and smell of eucalyptus when crushed; bark is usually shredding or flaking",
+							"img": "images/key2-step7-a.png",
+							"credit": "&copy; H Zell",
+							"result": "Eucalyptus"
+						},
+						"b":{
+							"label": "A deciduous tree, leaves are pale or bright green and don’t smell when crushed; bark is not shredding",
+							"img": "images/key2-step5-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key2","step":"step8"}
+						}
+					}
+				},
+				"step8": {
+					"options": {
+						"a":{
+							"label": "A tall tree up to 20m; leaves are 10–25cm long; flowers are 5cm or more across; fruit is a long, narrow pod that remains after the leaves fall",
+							"img": "images/key2-step8-a.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"result": "Indian bean tree"
+						},
+						"b":{
+							"label": "A small tree to 8m; leaves are 4–10cm long; flowers are 4mm across; fruit is a red berry",
+							"img": "images/key2-step8-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Cornelian cherry"
+						}
+					}
+				},
+				"step9": {
+					"options": {
+						"a":{
+							"label": "Leaves with 3-13 lobes. If 5-lobed, then any teeth present aren’t small, coarse, round-tipped and numerous, or flowers/fruits don’t hang in tails",
+							"img": "images/key2-step9-a.png",
+							"credit": "&copy;  The Dow Gardens Archive, Dow Gardens, United States",
+							"result": "Maples (other than sycamore)"
+						},
+						"b":{
+							"label": "Leaves 5-lobed with many small, coarse, round-tipped teeth; flowers/fruits in hanging tails",
+							"img": "images/key2-step9-b.png",
+							"credit": "&copy; Willow",
+							"result": "Sycamore"
+						}
+					}
+				}
+			}
+		},
+		"key3":{
+			"label": "Key 3: trees with leaves arranged alternately, divided into separate leaflets",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Leaves divided into 3 leaflets",
+							"img": "images/key3-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Laburnums"
+						},
+						"b":{
+							"label": "Leaves divided into more than 3 leaflets",
+							"img": "images/key3-step1-b.png",
+							"credit": "&copy; Karan A. Rawlins, University of Georgia, United States",
+							"goto": {"key":"key3","step":"step2"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Twigs are thick and densely covered with velvety hairs; flower heads (and later the seed heads) are dense, cone-shaped and hairy",
+							"img": "images/key3-step2-a.png",
+							"credit": "&copy; Aha",
+							"result": "Stag's horn sumach"
+						},
+						"b":{
+							"label": "Twigs not velvety; flowers and fruits are not in hairy, cone-shaped heads",
+							"img": "images/key3-step2-b.png",
+							"credit": "&copy; Radbak",
+							"goto": {"key":"key3","step":"step3"}
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Twigs have a pair of thorns at the base of each leaf",
+							"img": "images/key3-step3-a.png",
+							"credit": "&copy; John Cardina, The Ohio State University, United States ",
+							"result": "False acacia"
+						},
+						"b":{
+							"label": "Twigs have no spines or thorns",
+							"img": "images/key3-step3-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key3","step":"step4"}
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Twigs have distinctive Y-shaped scars where leaves have fallen; cut twigs leak latex; flowers are in catkins or clusters of 1–5",
+							"img": "images/key3-step4-a.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"result": "Walnuts"
+						},
+						"b":{
+							"label": "Leaf scars are not Y-shaped; cut twigs don’t leak latex; flowers are numerous and in clusters",
+							"img": "images/key3-step4-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key3","step":"step5"}
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Leaflets are not lobed, they are not foul-smelling; the fruit is a pod",
+							"img": "images/key3-step5-a.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"result": "Pagoda tree"
+						},
+						"b":{
+							"label": "Leaflets have a few teeth or lobes in the lower half only and they are foul-smelling when crushed; the fruit is a papery, winged seed",
+							"img": "images/key3-step5-b.png",
+							"credit": "&copy; Karan A. Rawlins, University of Georgia, United States",
+							"result": "Tree-of-heaven"
+						},
+						"c":{
+							"label": "Leaflets are toothed or lobed, not foul-smelling; the fruit is a papery capsule",
+							"img": "images/key3-step5-c.png",
+							"credit": "&copy; Wouter Hagens",
+							"result": "Pride-of-India"
+						},
+						"d":{
+							"label": "Leaflets are toothed or lobed, not foul-smelling; the fruit is a papery capsule",
+							"img": "images/key3-step5-d.png",
+							"goto": {"key":"key3","step":"step6"}
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Lower part of the leaf is divided into 1–4 pairs of leaflets, the upper part is lobed in places but not completely divided",
+							"img": "images/key3-step6-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Service trees"
+						},
+						"b":{
+							"label": "Leaves are completely divided into 6 or more pairs of leaflets",
+							"img": "images/key3-step6-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key3","step":"step7"}
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "Ripe fruits are orange-red to vermillion-red or occasionally yellow, with yellow pulp",
+							"img": "images/key3-step7-a.png",
+							"credit": "&copy; Boris Hrasovec, Faculty of Forestry, Croatia",
+							"result": "Rowans with orange or vermillion fruit"
+						},
+						"b":{
+							"label": "Ripe fruits are white to pink or crimson, with white pulp",
+							"img": "images/key3-step7-b.png",
+							"credit": "&copy;  Jean-Pol Grandmont",
+							"result": "Rowan with white, pink or crimson fruit"
+						}
+					}
+				}
+			}
+		},
+		"key4":{
+			"label": "Key 4: evergreen trees with leaves arranged alternately, not divided into leaflets",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Leaves have spiny edges",
+							"img": "images/master-step4-a.png",
+							"credit": "&copy; L.Miguel Bugallo Sánchez",
+							"goto": {"key":"key4","step":"step2"}
+						},
+						"b":{
+							"label": "Leaves sometimes have toothed edges but are not spiny",
+							"img": "images/key4-step1-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key4","step":"step3"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Leaves are white- or green-felted on the underside; fruit is an acorn; flowers are green, the male flowers are in slender catkins",
+							"img": "images/key4-step2-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Evergreen oak"
+						},
+						"b":{
+							"label": "Leaves are paler but hairless on the underside; fruit is a berry; flowers are white and in small clusters",
+							"img": "images/key4-step2-b.png",
+							"credit": "&copy; Hans Hillewaert",
+							"result": "Hollies"
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Leaves are aromatic when crushed",
+							"img": "images/key4-step3-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key4","step":"step4"}
+						},
+						"b":{
+							"label": "Leaves are not aromatic when crushed",
+							"img": "images/key4-step3-b.png",
+							"credit": "&copy; Derek Ramsey (Ram-Man)",
+							"goto": {"key":"key4","step":"step5"}
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Leaves smell of eucalyptus when crushed, or rarely of lemon, the edges are flat",
+							"img": "images/key4-step4-a.png",
+							"credit": "&copy; Forest & Kim Starr",
+							"result": "Eucalyptus"
+						},
+						"b":{
+							"label": "Leaves smell of almonds when crushed; the edges are rolled under",
+							"img": "images/key4-step4-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Cherry laurel"
+						},
+						"c":{
+							"label": "Leaves smell of bay when crushed, the edges are wavy",
+							"img": "images/key4-step4-c.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Bay"
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Leaves are densely covered with rusty brown or grey hairs on the underside",
+							"img": "images/key4-step5-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key4","step":"step6"}
+						},
+						"b":{
+							"label": "Leaves are hairless or have white hairs on the underside",
+							"img": "images/key4-step5-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key4","step":"step7"}
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Flowers are on their own",
+							"img": "images/key4-step6-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Evergreen magnolias"
+						},
+						"b":{
+							"label": "Flowers are in clusters",
+							"img": "images/key4-step6-b.png",
+							"credit": "&copy; Karduelis",
+							"result": "Rhododendrons"
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "Flowers are roughly 1cm long, urn-shaped and in small drooping clusters; the fruit is a warty, matt-red berry",
+							"img": "images/key4-step7-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Strawberry tree"
+						},
+						"b":{
+							"label": "Flowers are 3–5.5cm long, bell-shaped and in large rounded clusters; the fruit is a capsule",
+							"img": "images/key4-step6-b.png",
+							"credit": "&copy; Andreas Praefcke",
+							"result": "Rhododendrons"
+						},
+						"c":{
+							"label": "Flowers are 1–1.5cm across and flat, with up to 100 in erect spikes; the fruit is a smooth, shiny black berry",
+							"img": "images/key4-step5-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Portugal laurel"
+						},
+						"d":{
+							"label": "Flowers are less than 1cm across, flat and in clusters; the fruit is a red, orange or blue-black berry",
+							"img": "images/key4-step7-d.png",
+							"credit": "&copy; Dave Emley, Keele University",
+							"result": "Cotoneasters"
+						}
+					}
+				}
+			}
+		},
+		"key5":{
+			"label": "Key 5: deciduous trees with leaves arranged alternately, not divided into leaflets; fruits fleshy or juicy",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Leaves are fan-shaped with a central notch",
+							"img": "images/key5-step1-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Maidenhair tree"
+						},
+						"b":{
+							"label": "Leaves are not fan-shaped",
+							"img": "images/key5-step1-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key5","step":"step2"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "At least some leaves are lobed",
+							"img": "images/key5-step2-a.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step3"}
+						},
+						"b":{
+							"label": "Leaves are undivided, the edges may be toothed but not lobed",
+							"img": "images/key5-step2-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step6"}
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Leaves are palmately lobed, distinctly bristly to the touch on the upper side",
+							"img": "images/key5-step3-a.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step4"}
+						},
+						"b":{
+							"label": "Leaves are pinnately lobed, smooth or softly hairy on the upper side",
+							"img": "images/key5-step3-b.png",
+							"credit": "&copy; Georges Jansoone",
+							"goto": {"key":"key5","step":"step5"}
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Some leaves are lobed and all are toothed; the fruit resembles a raspberry, red or purple when ripe",
+							"img": "images/key5-step4-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Mulberry"
+						},
+						"b":{
+							"label": "All leaves are lobed; the fruit is pear-shaped and brownish purple when ripe",
+							"img": "images/key5-step4-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Fig"
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Twigs are thorny",
+							"img": "images/key5-step5-a.png",
+							"credit": "&copy; Rasbak",
+							"result": "Hawthorns"
+						},
+						"b":{
+							"label": "Twigs are not thorny",
+							"img": "images/key5-step2-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Whitebeams"
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Leaves are not toothed",
+							"img": "images/key5-step6-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Cotoneasters"
+						},
+						"b":{
+							"label": "Leaves are toothed",
+							"img": "images/key5-step6-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step7"}
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "Flowers and fruits are in cylinder- or cone-shaped spikes",
+							"img": "images/key5-step7-a.png",
+							"credit": "&copy; Nova",
+							"goto": {"key":"key5","step":"step8"}
+						},
+						"b":{
+							"label": "Flowers and fruits are on their own, in pairs or in clusters",
+							"img": "images/key5-step7-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step9"}
+						}
+					}
+				},
+				"step8": {
+					"options": {
+						"a":{
+							"label": "Flowers are less than 10mm in diameter, the petals are broadly oval; the fruit is smooth at the apex",
+							"img": "images/key5-step7-a.png",
+							"credit": "&copy; Nova",
+							"result": "Bird cherries"
+						},
+						"b":{
+							"label": "Flowers are more than 10mm in diameter, the petals are narrow and strap-shaped; the fruit is crowned with the withered sepals",
+							"img": "images/key5-step8-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Amelanchier"
+						}
+					}
+				},
+				"step9": {
+					"options": {
+						"a":{
+							"label": "Flowers have 1 style; sepals are absent on the ripe fruit; 1 seed",
+							"img": "images/key5-step9-a.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step10"}
+						},
+						"b":{
+							"label": "Flowers have 2 or more styles; sepals are usually present on the ripe fruit; 2 or more seeds",
+							"img": "images/key5-step9-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step14"}
+						}
+					}
+				},
+				"step10": {
+					"options": {
+						"a":{
+							"label": "Twigs are very thorny",
+							"img": "images/key5-step10-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Blackthorn"
+						},
+						"b":{
+							"label": "Twigs are not thorny or have only occasional thorns",
+							"img": "images/key5-step10-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step11"}
+						}
+					}
+				},
+				"step11": {
+					"options": {
+						"a":{
+							"label": "Fruit is less than 2cm long; the bark often has distinctive horizontal bands of pores",
+							"img": "images/key5-step11-a.png",
+							"credit": "&copy; Terry Spivey, USDA Forest Service, Bugwood.org",
+							"goto": {"key":"key7","step":"step1"}
+						},
+						"b":{
+							"label": "Fruit is more than 2cm long; the bark doesn’t have horizontal bands of pores",
+							"img": "images/key5-step11-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key5","step":"step12"}
+						}
+					}
+				},
+				"step12": {
+					"options": {
+						"a":{
+							"label": "Fruit has a velvety skin, even when fully ripe",
+							"img": "images/key5-step12-a.png",
+							"credit": "&copy; Tobias Maschler",
+							"result": "Peach and almond"
+						},
+						"b":{
+							"label": "Fruit has a smooth skin, often with a greyish waxy bloom on the skin",
+							"img": "images/key5-step12-b.png",
+							"credit": "&copy; Tobias Schula",
+							"goto": {"key":"key5","step":"step13"}
+						}
+					}
+				},
+				"step13": {
+					"options": {
+						"a":{
+							"label": "Young twigs are green, smooth and glossy",
+							"img": "images/key5-step13-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Cherry plum"
+						},
+						"b":{
+							"label": "Young twigs are brown or grey, dull and often hairy",
+							"img": "images/key5-step13-b.png",
+							"credit": "&copy; University of Arkansas Division of Agriculture",
+							"result": "Plum"
+						}
+					}
+				},
+				"step14": {
+					"options": {
+						"a":{
+							"label": "Flowers and fruits in clusters of 11 or more, with their stalks not arising from a central point",
+							"img": "images/key5-step14-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key5","step":"step15"}
+						},
+						"b":{
+							"label": "Flowers and fruits in clusters of 10 or fewer, with their stalks all arising from a central point",
+							"img": "images/key5-step14-b.png",
+							"credit": "&copy; Opio a Jerzy",
+							"goto": {"key":"key5","step":"step16"}
+						}
+					}
+				},
+				"step15": {
+					"options": {
+						"a":{
+							"label": "Twigs are thorny or spiny, sometimes with very few spines",
+							"img": "images/key5-step15-a.png",
+							"credit": "&copy; Nadiatalent",
+							"result": "Cockspur-thorns"
+						},
+						"b":{
+							"label": "Twigs are not thorny",
+							"img": "images/key5-step2-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Whitebeams"
+						}
+					}
+				},
+				"step16": {
+					"options": {
+						"a":{
+							"label": "Fruit is usually pear-shaped, with gritty flesh; styles are not joined together at the base",
+							"img": "images/key5-step16-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Pears"
+						},
+						"b":{
+							"label": "Fruit is usually apple-shaped, the flesh is not gritty; styles are joined together at the base",
+							"img": "images/key5-step16-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key5","step":"step17"}
+						}
+					}
+				},
+				"step17": {
+					"options": {
+						"a":{
+							"label": "Fruits less than 4cm long",
+							"img": "images/key5-step17-a.png",
+							"credit": "&copy;  The Dow Gardens Archive, Dow Gardens, United States",
+							"result": "Crab apple"
+						},
+						"b":{
+							"label": "Fruits more than 4cm long",
+							"img": "images/key5-step17-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Apples"
+						}
+					}
+				}
+			}
+		},
+		"key6":{
+			"label": "Key 6: deciduous trees with leaves arranged alternately, not divided into leaflets; fruits dry",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Leaves are lobed",
+							"img": "images/key6-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step2"}
+						},
+						"b":{
+							"label": "Leaves are not lobed",
+							"img": "images/key6-step1-b.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"goto": {"key":"key6","step":"step6"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Leaves are square or notched at the tip; the flowers are up to 5cm long and are on their own",
+							"img": "images/key6-step2-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Tulip tree"
+						},
+						"b":{
+							"label": "Leaves are rounded or pointed at the tip; the flowers are much smaller, in clusters or catkins",
+							"img": "images/key6-step2-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key6","step":"step3"}
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Leaves are pinnately lobed; the fruit is an acorn",
+							"img": "images/key6-step3-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Oaks"
+						},
+						"b":{
+							"label": "Leaves are palmately or irregularly lobed; the fruits form a catkin or globe-shaped head",
+							"img": "images/key6-step1-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step4"}
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Leaves are felted with white or grey hairs on the underside",
+							"img": "images/key6-step4-a.png",
+							"credit": "&copy; Richard Old, XID Services, Inc., United States",
+							"result": "White poplar"
+						},
+						"b":{
+							"label": "Leaves are smooth or sparsely hairy on the underside",
+							"img": "images/key6-step4-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key6","step":"step5"}
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Bark is flaking in large patches; the fruits form a soft, hairy ball like a pom-pom",
+							"img": "images/key6-step5-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Plane"
+						},
+						"b":{
+							"label": "Bark is fissured, not flaking; the fruits form a stiff, spiky ball like the head of a mace",
+							"img": "images/key6-step5-b.png",
+							"credit": "&copy; Andrea Moro",
+							"result": "Sweet-gum"
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Bark is silver or white",
+							"img": "images/key6-step6-a.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key6","step":"step7"}
+						},
+						"b":{
+							"label": "Bark is greyish or brown",
+							"img": "images/key6-step6-b.png",
+							"credit": "&copy; Robert Silverwood",
+							"goto": {"key":"key6","step":"step8"}
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "Tree is weeping, the twigs and smaller branches hang loosely; the bark has black, diamond-shaped splits",
+							"img": "images/key6-step7-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Silver birch"
+						},
+						"b":{
+							"label": "Tree is not weeping; the bark is often peeling but doesn’t have black diamond-shaped splits",
+							"img": "images/key6-step7-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "White or Himalayan birch"
+						}
+					}
+				},
+				"step8": {
+					"options": {
+						"a":{
+							"label": "Leaves are more than 3 times as long as they are wide",
+							"img": "images/key6-step8-a.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"goto": {"key":"key6","step":"step9"}
+						},
+						"b":{
+							"label": "Leaves are less than 3 times as long as they are wide",
+							"img": "images/key6-step8-b.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"goto": {"key":"key6","step":"step11"}
+						}
+					}
+				},
+				"step9": {
+					"options": {
+						"a":{
+							"label": "Leaf edges are coarsely toothed, the teeth end in a softly spiny tip; the seeds are enclosed in a softly spiny husk",
+							"img": "images/key6-step9-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Sweet chestnut"
+						},
+						"b":{
+							"label": "Leaf edges are not indented but may have small, fine teeth; the seeds have a plume of silky hairs at one end",
+							"img": "images/key6-step9-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step10"}
+						}
+					}
+				},
+				"step10": {
+					"options": {
+						"a":{
+							"label": "Tree is weeping, the smaller branches hang downwards, often almost to the ground",
+							"img": "images/key6-step10-a.png",
+							"credit": "&copy; KoS",
+							"result": "Weeping willow"
+						},
+						"b":{
+							"label": "Tree is not weeping",
+							"img": "images/key6-step10-b.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"result": "Willows"
+						}
+					}
+				},
+				"step11": {
+					"options": {
+						"a":{
+							"label": "Fruit is a small, woody cone, they are numerous and stay on the tree until spring",
+							"img": "images/key6-step11-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Alders"
+						},
+						"b":{
+							"label": "Fruit is not a woody cone",
+							"img": "images/key6-step11-b.png",
+							"credit": "&copy; KENPEI",
+							"goto": {"key":"key6","step":"step12"}
+						}
+					}
+				},
+				"step12": {
+					"options": {
+						"a":{
+							"label": "Leaf edges aren’t indented",
+							"img": "images/key6-step12-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step13"}
+						},
+						"b":{
+							"label": "Leaf edges are toothed, the teeth may be very small",
+							"img": "images/key6-step12-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step15"}
+						},
+						"c":{
+							"label": "Leaves are double-toothed",
+							"img": "images/key6-step12-c.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"goto": {"key":"key6","step":"step16"}
+						}
+					}
+				},
+				"step13": {
+					"options": {
+						"a":{
+							"label": "Leaves are almost circular; flowers are pea-like and found on the trunk and main branches as well as the twigs",
+							"img": "images/key6-step12-a.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Judas tree"
+						},
+						"b":{
+							"label": "Leaves are oval or egg-shaped; flowers aren't pea-like",
+							"img": "images/key6-step13-b.png",
+							"credit": "&copy; Bob Press",
+							"goto": {"key":"key6","step":"step14"}
+						}
+					}
+				},
+				"step14": {
+					"options": {
+						"a":{
+							"label": "Leaves are flat and 15cm or more in length; the flowers have 5 or more large petals that are white or pink; the fruit is cone-like but not woody",
+							"img": "images/key6-step14-a.png",
+							"credit": "&copy; KENPEI",
+							"result": "Magnolias"
+						},
+						"b":{
+							"label": "Leaves are up to 9cm long with wavy edges; the flowers are greenish and don’t have petals; the fruit has a spiny husk",
+							"img": "images/key6-step14-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Beech"
+						}
+					}
+				},
+				"step15": {
+					"options": {
+						"a":{
+							"label": "Flowers and fruits are in clusters suspended beneath an oblong, wing-shaped bract; the leaves are roughly heart-shaped",
+							"img": "images/key6-step15-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Limes"
+						},
+						"b":{
+							"label": "Flowers and fruits are in cylindrical catkins; the leaves are oval to oblong",
+							"img": "images/key6-step15-b.png",
+							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
+							"result": "Willows"
+						}
+					}
+				},
+				"step16": {
+					"options": {
+						"a":{
+							"label": "Flowers are in small clusters; the fruit is a seed surrounded by a papery wing",
+							"img": "images/key6-step16-a.png",
+							"credit": "&copy; Bob Press",
+							"result": "Elms"
+						},
+						"b":{
+							"label": "Flowers are in slender, hanging catkins; the fruit is a nut",
+							"img": "images/key6-step16-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"goto": {"key":"key6","step":"step17"}
+						}
+					}
+				},
+				"step17": {
+					"options": {
+						"a":{
+							"label": "Leaves hairy on both surfaces; fruits are solitary or in clusters of a few; each nut is wrapped in a leafy sheath",
+							"img": "images/key6-step16-b.png",
+							"credit": "&copy; H Zell",
+							"result": "Hazels"
+						},
+						"b":{
+							"label": "Leaves hairy only on veins on the underside; fruits are in a hanging catkin, paired nuts are attached to a large, 3-lobed, bract",
+							"img": "images/key6-step17-b.png",
+							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
+							"result": "Hornbeam"
+						}
+					}
+				}
+			}
+		},
+		"key7":{
+			"label": "Key 7: cherry trees",
+			"steps":{
+				"step1": {
+					"options": {
+						"a":{
+							"label": "Flowers or fruits arranged in roughly cylinder-shaped spikes, 11 or more per spike",
+							"img": "images/key7-step1-a.png",
+							"credit": "&copy; NHM",
+							"goto": {"key":"key7","step":"step2"}
+						},
+						"b":{
+							"label": "Flowers or fruits on their own or in clusters of 10 or fewer",
+							"img": "images/key7-step1-b.png",
+							"credit": "&copy; NHM",
+							"goto": {"key":"key7","step":"step3"}
+						}
+					}
+				},
+				"step2": {
+					"options": {
+						"a":{
+							"label": "Leaves hairless or with white hairs along midrib, sometimes only where veins join; flowers 10-15mm across",
+							"img": "images/key7-step2-a.png",
+							"credit": "&copy; USDA Forest Service – Ogden Archive, USDA Forest Service, Bugwood.org",
+							"result": "Bird cherries"
+						},
+						"b":{
+							"label": "Leaves have rusty or orange hairs underneath, each side of the midrib; flowers 8mm across",
+							"img": "images/key7-step2-b.png",
+							"credit": "&copy; Bill Cook, Michigan State University, Bugwood.org",
+							"result": "Rum cherry"
+						}
+					}
+				},
+				"step3": {
+					"options": {
+						"a":{
+							"label": "Flower and leaf stalks densely hairy; leaf edges have pointed teeth",
+							"img": "images/key7-step3-a.png",
+							"credit": "&copy; NHM",
+							"goto": {"key":"key7","step":"step4"}
+						},
+						"b":{
+							"label": "Flower and leaf stalks hairless or almost hairless; leaf edges have pointed teeth, often with thin, bristle-like tips",
+							"img": "images/key7-step3-b.png",
+							"credit": "&copy; NHM",
+							"goto": {"key":"key7","step":"step5"}
+						},
+						"c":{
+							"label": "Flower and leaf stalks hairless; leaf edges have blunt or round teeth, often with a claw-shaped gland at the tip",
+							"img": "images/key7-step3-c.png",
+							"credit": "&copy; NHM",
+							"goto": {"key":"key7","step":"step6"}
+						}
+					}
+				},
+				"step4": {
+					"options": {
+						"a":{
+							"label": "Sepal edges are toothed; leaves hairless on the upper side with hairy veins on the underside",
+							"img": "images/key7-step4-a.png",
+							"credit": "&copy; Wendy Cutler/VCBF",
+							"result": "Spring cherries"
+						},
+						"b":{
+							"label": "Sepal edges not toothed; leaves hairy on both surfaces",
+							"img": "images/key7-step4-b.png",
+							"credit": "&copy; David Emley, Keele University",
+							"result": "Fuji cherry"
+						}
+					}
+				},
+				"step5": {
+					"options": {
+						"a":{
+							"label": "Bark on trunk and branches very glossy, purplish-brown and peeling in thin, copper-brown strips",
+							"img": "images/key7-step5-a.png",
+							"credit": "&copy; Henk Meijers",
+							"result": "Tibetan cherry"
+						},
+						"b":{
+							"label": "Bark mostly dull grey or brown, sometimes peeling to reveal shiny red-brown on the trunk",
+							"img": "images/key7-step5-b.png",
+							"credit": "&copy; Bob Press",
+							"result": "Japanese cherries"
+						}
+					}
+				},
+				"step6": {
+					"options": {
+						"a":{
+							"label": "Flowers less than 20mm across, on stalks up to 15mm long, not arising from a central point; fruit less than 10mm long",
+							"img": "images/key7-step6-a.png",
+							"credit": "&copy; Jean Tosti",
+							"result": "St Lucie cherries"
+						},
+						"b":{
+							"label": "Flowers more than 20mm across, on stalks more than 15mm long, arising from a central point; fruit more than 10mm long",
+							"img": "images/key7-step6-b.png",
+							"credit": "&copy; NHM",
+							"goto": {"key":"key7","step":"step7"}
+						}
+					}
+				},
+				"step7": {
+					"options": {
+						"a":{
+							"label": "Flowers cup-shaped; leaves dull on the upper side, sparsely hairy on the underside",
+							"img": "images/key7-step7-a.png",
+							"credit": "&copy; böhringer friedrich",
+							"result": "Wild cherry"
+						},
+						"b":{
+							"label": "Flowers saucer-shaped; leaves glossy on the upper side, hairless on the underside",
+							"img": "images/key7-step7-b.png",
+							"credit": "&copy; Bogdan Janus",
+							"result": "Morello cherry"
+						}
+					}
+				}
+			}
+		}
+	}
+}

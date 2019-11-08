@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="../resources/stuquery.js"></script>
+	<link rel="StyleSheet" href="../resources/trees.css" type="text/css" />
+	<title>Tree identifier</title>
+	<script>
+	var tree;
+	S().ready(function(){
+	
+		function DecisionTree(opt){
+			if(!opt) opt = {};
+
+			this.tree = {};
+			this.key = "master";
+			this.step = "step1";
+			this.option = "";
+			var file = opt.file || "identify.json";
+
+			S().ajax(file,{
+				"this": this,
+				"dataType": "json",
+				"success": function(d){
+					this.tree = d;
+					this.init();
+				},
+				"error": function(d,attr){
+				
+				}
+			});
+
+		
+			this.init = function(){
+			
+				S('#btn-start').css({'display':'block'}).on('click',{me:this},function(e){ e.data.me.start(); });
+				return this;
+			}
+
+
+			this.start = function(){
+				S('#start').css({'display':'none'});
+				S('#decision').css({'display':'block'});
+				this.showDecision(this.key,this.step);
+				
+				
+				return this;
+			}
+			
+			this.showDecision = function(key,step){
+				this.key = key;
+				this.step = step;
+				this.option = "";
+				var st = this.tree.keys[key].steps[step];
+				var n = 0;
+				var html = '';
+				for(var o in st.options) n++;
+				console.log(n%2)
+				for(var o in st.options){
+					html += '<li><div class="b5-bg">';
+					html += '<figure>';
+					if(st.options[o].img) html += '<div class="image-cropper"><img src="'+st.options[o].img+'" alt="'+st.options[o].label+'" class="illustration" /></div>';
+					html += '<div class="credit">'+(st.options[o].credit||"&nbsp;")+'</div>';
+					html += '</figure>';
+					html += '<div class="content">';
+					html += '<p class="description">'+st.options[o].label;
+					//html += '<br />['+this.numberOfResults(this.key,this.step,o)+' trees]';
+					html += '</p><button class="leaf thumb-button" id="answer-'+o+'">'+o.toUpperCase()+'</button>';
+					html += '</div>';
+					html += '</div></li>'
+				}
+				if(html) html = '<ul class="grid'+(n%2==0 ? ' two':'')+'">'+html+'</ul>';
+				if(st.more){
+					html += '<p class="more"><a href="'+st.more.url+'" target="_help">'+st.more.label+'</a></p>';
+				}
+				S('#decision .result').html(html);
+				
+				// Add events
+				for(var o in st.options){
+					S('#answer-'+o).on('click',{'me':this,'o':o},function(e){
+						me = e.data.me;
+						me.option = e.data.o;
+						option = me.tree.keys[me.key].steps[me.step].options[me.option];
+						if(option['result']) me.showAnswer();
+						if(option['goto']){
+							me.showDecision(option['goto'].key,option['goto'].step);
+						}
+					});
+				}
+				
+				
+			}
+			
+			this.showAnswer = function(){
+				S('#decision .result').html('<div><h2>'+this.tree.keys[this.key].steps[this.step].options[this.option].result+'</h2><button class="thumb-button leaf">Select this type</button></div>');
+				return this;
+			}
+		
+			this.numberOfResults = function(key,step,option){
+				if(typeof count!=="number") var count = 0;
+				var st = this.tree.keys[key].steps[step];
+				for(var o in st.options){
+					if((option && o==option) || (!option)){
+						if(typeof st.options[o]['result']==="string") count++;
+						if(typeof st.options[o]['goto']==="object"){
+							count += this.numberOfResults(st.options[o]['goto'].key,st.options[o]['goto'].step,"");
+						}
+					}
+				}
+				return count;
+			}
+		}
+
+		tree = new DecisionTree();
+	});	
+	
+	</script>
+	<style>
+	html,body {
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+	}
+	header { position: absolute; top: 0px; left: 0px; width:100%; text-align: center; line-height: 1.5em; }
+	header { padding-top: 1em; }
+	header h2 { margin-bottom: 0px; }
+	#app { }
+	#main { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow-y: auto; }
+	#start { position: relative; display: inline-block; left: 50%; top: 50%; transform: translate3d(-50%, -50%, 0); text-align: center; }
+	#btn-start { margin: auto; margin-top: 1em; }
+	#decision { padding: 3em; display: none; }
+	.grid > li > div { text-align: center; position: relative; }
+	.grid > li > div button { display: block; width: 100%; text-align: center; font-size: 1.5em; font-weight: bold; }
+	.description { min-height: 4.5em; }
+	.result { width: 100%; position: relative; }
+	.result > div { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); text-align: center; }
+	.result > div button { margin: auto; }
+	
+	.image-cropper {
+		width: 184px;
+		height: 184px;
+		position: relative;
+		overflow: hidden;
+		border-radius: 50%;
+		margin: auto;
+	}
+	.illustration {
+		display: inline;
+		margin: 0 auto;
+		margin-left: -25%;
+		height: 100%;
+		width: auto;
+	}
+	h2 a, h3 a, p a, p a:visited { color: inherit; }
+	h1 + p { margin-top: 1em; }
+	p.more { text-align: center; }
+	.credit { font-size: 0.8em; line-height: 1em; min-height: 2em; margin-top: 0.5em; color: #aaa; text-align: center; }
+	#message > div { font-size: 0.8em; }
+	#message > div a { color: inherit; }
+	@media only screen and (max-width: 800px) {
+		.image-cropper { width: 112px; max-width: 100%; max-height: 112px; }
+	}
+	@media only screen and (max-width: 600px) {
+		.image-cropper { width: 112px; max-width: 100%; max-height: 112px; }
+		.grid.two > li, .grid > li { width: 100%; }
+		.description { min-height: auto; }
+		#main { padding-bottom: 4em; }
+	}
+	</style>
+</head>
+<body class="b6-bg">
+
+	<div id="main">
+		<header>
+			<h2>Tree identifier</h2>
+		</header>
+		<section id="start">
+			<p>This tool aims to help you identify a tree.
+			<br />Based on the <a href="https://www.nhm.ac.uk/content/dam/nhmwww/take-part/identify-nature/tree-identification-key.pdf">Natural History Museum's Tree identification key</a>		
+			
+			<button id="btn-start" class="btn-go thumb-button leaf">Start</button>
+
+
+
+		</section>
+		<section id="decision" class="doublepadded">
+			<div class="result holder">
+			</div>
+		</section>
+	</div>
+
+
+</body>
+</html>
