@@ -136,7 +136,7 @@
 							"label": "Scale-leaves at least 30mm long, rigid and sharp-edged",
 							"img": "images/key1-step2-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Monkey puzzle"
+							"result": {"Genus":"Araucaria","Taxon":"Araucaria araucana","Vernacular":"Monkey-puzzle"}
 						},
 						"b":{
 							"label": "Scale-leaves less than 30mm long, not rigid or sharp",
@@ -152,7 +152,7 @@
 							"label": "Deciduous tree; foliage is wispy; pink or white flowers",
 							"img": "images/key1-step3-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Tamarisks"
+							"result": {"Genus":"Tamarix","Taxon":"Tamarix gallica","Vernacular":"Tamarisks"}
 						},
 						"b":{
 							"label": "Evergreen tree with cones; foliage is dense",
@@ -168,7 +168,7 @@
 							"label": "Cone is egg-shaped with overlapping scales, eventually wide-spreading like petals of a flower; crushed foliage smells of pineapple",
 							"img": "images/key1-step4-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Western red cedar"
+							"result": {"Genus":"Thuja","Taxon":"Thuja plicata","Vernacular":"Western Red-cedar"}
 						},
 						"b":{
 							"label": "Cone is egg- or ball-shaped, scales meet at edges and don’t overlap, scales don’t become wide-spreading; crushed foliage doesn’t smell of pineapple",
@@ -184,13 +184,13 @@
 							"label": "Cone is egg-shaped with more than 15 scales; bark is very thick, with visible fibres, and is rather soft or spongy",
 							"img": "images/key1-step5-a.jpg",
 							"credit": "Public domain",
-							"result": "Wellingtonia"
+							"result": {"Genus":"Sequoia","Taxon":"Sequoia wellingtonia","Vernacular":"Wellingtonia"}
 						},
 						"b":{
 							"label": "Cone is ball-shaped, with fewer than 10 scales; bark is hard",
 							"img": "images/key1-step3-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Cypresses"
+							"result": {"Genus":"Xanthocyparis","Taxon":"Xanthocyparis","Vernacular":"Cypresses"}
 						}
 					}
 				},
@@ -200,7 +200,7 @@
 							"label": "Needles are in two flat, parallel rows, at least on the short shoots growing off longer ones; fruit is scarlet and berry-like",
 							"img": "images/key1-step6-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Yew"
+							"result": {"Genus":"Taxus","Taxon":"Taxus baccata","Vernacular":"Yew"}
 						},
 						"b":{
 							"label": "All the needles are in clusters or are parted on either side of shoot, but not in flat rows; fruit is a woody cone",
@@ -232,7 +232,7 @@
 							"label": "Cones stand upright on branches; needles are attached by a sucker-like base",
 							"img": "images/key1-step8-a.jpg",
 							"credit": "&copy; MPF",
-							"result": "Firs"
+							"result": {"Genus":"Pinus","Taxon":"Abies","Vernacular":"Firs"}
 						},
 						"b":{
 							"label": "Cones hang downwards from branches; the base of the needles are not sucker-like",
@@ -248,13 +248,13 @@
 							"label": "Needles leave behind their peg-like bases after falling",
 							"img": "images/key1-step9-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Spruces"
+							"result": {"Genus":"Pinus","Taxon":"Picea","Vernacular":"Spruces"}
 						},
 						"b":{
 							"label": "Needles leave behind their cushion-like bases after falling",
 							"img": "images/key1-step9-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Hemlock spruces"
+							"result": {"Genus":"Tsuga","Taxon":"Tsuga","Vernacular":"Hemlock-spruces"}
 						}
 					}
 				},
@@ -280,19 +280,19 @@
 							"label": "Needles in bundles of 2",
 							"img": "images/key1-step11-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Pines, 2-needled"
+							"result": {"Genus":"Pinus","Taxon":"Pinus","Vernacular":"Pines, 2-needled"}
 						},
 						"b":{
 							"label": "Needles in bundles of 3",
 							"img": "images/key1-step10-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Pines, 3-needled"
+							"result": {"Genus":"Pinus","Taxon":"Pinus","Vernacular":"Pines, 3-needled"}
 						},
 						"c":{
 							"label": "Needles in bundles of 5",
 							"img": "images/key1-step7-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Pines, 5-needled"
+							"result": {"Genus":"Pinus","Taxon":"Pinus","Vernacular":"Pines, 5-needled"}
 						}
 					}
 				},
@@ -302,7 +302,7 @@
 							"label": "Needles on all shoots are arranged in rings of 3 going around the shoot, or occasionally in pairs",
 							"img": "images/key1-step12-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Junipers"
+							"result": {"Genus":"Juniperus","Taxon":"Juniperus","Vernacular":"Junipers"}
 						},
 						"b":{
 							"label": "Needles on short shoots, in clusters of 10 or more",
@@ -318,13 +318,13 @@
 							"label": "A deciduous tree; the cones are egg-shaped",
 							"img": "images/key1-step13-a.jpg",
 							"credit": "Public domain",
-							"result": "Larches"
+							"result": {"Genus":"Pinus","Taxon":"Larix","Vernacular":"Larches"}
 						},
 						"b":{
 							"label": "An evergreen tree; the cones are barrel-shaped",
 							"img": "images/key1-step13-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Cedars"
+							"result": {"Genus":"Libocedrus","Taxon":"Cedrus","Vernacular":"Cedars"}
 						}
 					}
 				},
@@ -334,13 +334,13 @@
 							"label": "Leaves of main shoots are scale-like, leaves of short shoots are needle-like, up to 20mm long, arranged in 2 rows; foliage doesn’t smell unpleasant",
 							"img": "images/key1-step14-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Coast redwood"
+							"result": {"Genus":"Sequoia","Taxon":"Sequoia sempervirens","Vernacular":"Coastal redwood"}
 						},
 						"b":{
 							"label": "Leaves mostly scale-like; those towards the tips of shoots are needle-like, in opposite pairs, 5–6mm long; crushed foliage smells unpleasant",
 							"img": "images/key1-step14-b.jpg",
 							"credit": "&copy; Jakub Horák",
-							"result": "Junipers"
+							"result": {"Genus":"Juniperus","Taxon":"Juniperus","Vernacular":"Junipers"}
 						}
 					}
 				}
@@ -355,7 +355,7 @@
 							"label": "Leaves palmately divided into separate leaflets, the leaflets extending from the leaf stalk",
 							"img": "images/key2-step1-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Horse chestnuts"
+							"result": {"Genus":"Aesculus","Taxon":"Aesculus","Vernacular":"Horse-chestnuts"}
 						},
 						"b":{
 							"label": "Leaves pinnately divided into separate leaflets, the leaflets in two rows on the stalk",
@@ -377,7 +377,7 @@
 							"label": "Small trees with ridged, corky bark; the fruit is a berry",
 							"img": "images/key2-step2-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Elder"
+							"result": {"Genus":"Sambucus","Taxon":"Sambucus nigra","Vernacular":"Elder"}
 						},
 						"b":{
 							"label": "Tall trees with smooth or slightly wrinkled bark; fruits are dry and wing-shaped",
@@ -399,7 +399,7 @@
 							"label": "Twigs are not flattened where the buds or leaves are attached; leaves are hairless on the underside; fruits in pairs on the stalks",
 							"img": "images/key2-step3-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Ashleaf maple"
+							"result": {"Genus":"Acer","Taxon":"Acer negundo","Vernacular":"Ashleaf Maple"}
 						}
 					}
 				},
@@ -409,13 +409,13 @@
 							"label": "Flowers have no petals; winter buds are black",
 							"img": "images/key2-step4-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Ash"
+							"result": {"Genus":"Fraxinus","Taxon":"Fraxinus excelsior","Vernacular":"Ash"}
 						},
 						"b":{
 							"label": "Flowers have narrow white petals; winter buds are grey or brown",
 							"img": "images/key2-step4-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Manna ash"
+							"result": {"Genus":"Fraxinus","Taxon":"Fraxinus ornus","Vernacular":"Manna Ash"}
 						}
 					}
 				},
@@ -441,7 +441,7 @@
 							"label": "Leaf edges are toothed",
 							"img": "images/key2-step6-a.jpg",
 							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
-							"result": "Spindles"
+							"result": {"Vernacular":"Spindles"}
 						},
 						"b":{
 							"label": "Leaf edges are not toothed",
@@ -457,7 +457,7 @@
 							"label": "An evergreen tree, leaves are usually bluish-green and smell of eucalyptus when crushed; bark is usually shredding or flaking",
 							"img": "images/key2-step7-a.jpg",
 							"credit": "&copy; H Zell",
-							"result": "Eucalyptus"
+							"result": {"Genus":"Eucalyptus","Taxon":"Eucalyptus","Vernacular":"Gums"}
 						},
 						"b":{
 							"label": "A deciduous tree, leaves are pale or bright green and don’t smell when crushed; bark is not shredding",
@@ -473,13 +473,13 @@
 							"label": "A tall tree up to 20m; leaves are 10–25cm long; flowers are 5cm or more across; fruit is a long, narrow pod that remains after the leaves fall",
 							"img": "images/key2-step8-a.jpg",
 							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
-							"result": "Indian bean tree"
+							"result": {"Genus":"Catalpa","Taxon":"Catalpa bignonioides","Vernacular":"Indian-bean-tree"}
 						},
 						"b":{
 							"label": "A small tree to 8m; leaves are 4–10cm long; flowers are 4mm across; fruit is a red berry",
 							"img": "images/key2-step8-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Cornelian cherry"
+							"result": {"Genus":"Cornus","Taxon":"Cornus mas","Vernacular":"Cornelian-cherry"}
 						}
 					}
 				},
@@ -489,13 +489,13 @@
 							"label": "Leaves with 3-13 lobes. If 5-lobed, then any teeth present aren’t small, coarse, round-tipped and numerous, or flowers/fruits don’t hang in tails",
 							"img": "images/key2-step9-a.jpg",
 							"credit": "&copy;  The Dow Gardens Archive, Dow Gardens, United States",
-							"result": "Maples (other than sycamore)"
+							"result": {"Genus":"Viburnum","Taxon":"Acer","Vernacular":"Maples (other than sycamore)"}
 						},
 						"b":{
 							"label": "Leaves 5-lobed with many small, coarse, round-tipped teeth; flowers/fruits in hanging tails",
 							"img": "images/key2-step9-b.jpg",
 							"credit": "&copy; Willow",
-							"result": "Sycamore"
+							"result": {"Genus":"Acer","Taxon":"Acer pseudoplatanus","Vernacular":"Sycamore"}
 						}
 					}
 				}
@@ -510,7 +510,7 @@
 							"label": "Leaves divided into 3 leaflets",
 							"img": "images/key3-step1-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Laburnums"
+							"result": {"Genus":"Laburnum","Taxon":"Laburnum","Vernacular":"Laburnums"}
 						},
 						"b":{
 							"label": "Leaves divided into more than 3 leaflets",
@@ -526,7 +526,7 @@
 							"label": "Twigs are thick and densely covered with velvety hairs; flower heads (and later the seed heads) are dense, cone-shaped and hairy",
 							"img": "images/key3-step2-a.jpg",
 							"credit": "&copy; Aha",
-							"result": "Stag's horn sumach"
+							"result": {"Genus":"Rhus","Taxon":"Rhus typhina","Vernacular":"Stag's-horn Sumach"}
 						},
 						"b":{
 							"label": "Twigs not velvety; flowers and fruits are not in hairy, cone-shaped heads",
@@ -542,7 +542,7 @@
 							"label": "Twigs have a pair of thorns at the base of each leaf",
 							"img": "images/key3-step3-a.jpg",
 							"credit": "&copy; John Cardina, The Ohio State University, United States ",
-							"result": "False acacia"
+							"result": {"Genus":"Robinia","Taxon":"Robinia pseudoacacia","Vernacular":"False acacia"}
 						},
 						"b":{
 							"label": "Twigs have no spines or thorns",
@@ -558,7 +558,7 @@
 							"label": "Twigs have distinctive Y-shaped scars where leaves have fallen; cut twigs leak latex; flowers are in catkins or clusters of 1–5",
 							"img": "images/key3-step4-a.jpg",
 							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
-							"result": "Walnuts"
+							"result": {"Genus":"Juglans","Taxon":"Juglans","Vernacular":"Walnuts"}
 						},
 						"b":{
 							"label": "Leaf scars are not Y-shaped; cut twigs don’t leak latex; flowers are numerous and in clusters",
@@ -574,19 +574,19 @@
 							"label": "Leaflets are not lobed, they are not foul-smelling; the fruit is a pod",
 							"img": "images/key3-step5-a.jpg",
 							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
-							"result": "Pagoda tree"
+							"result": {"Taxon":"","Vernacular":"Pagoda tree"}
 						},
 						"b":{
 							"label": "Leaflets have a few teeth or lobes in the lower half only and they are foul-smelling when crushed; the fruit is a papery, winged seed",
 							"img": "images/key3-step5-b.jpg",
 							"credit": "&copy; Karan A. Rawlins, University of Georgia, United States",
-							"result": "Tree-of-heaven"
+							"result": {"Genus":"Ailanthus","Taxon":"Ailanthus altissima","Vernacular":"Tree-of-heaven"}
 						},
 						"c":{
 							"label": "Leaflets are toothed or lobed, not foul-smelling; the fruit is a papery capsule",
 							"img": "images/key3-step5-c.jpg",
 							"credit": "&copy; Wouter Hagens",
-							"result": "Pride-of-India"
+							"result": {"Genus":"Koelreuteria","Taxon":"Koelreuteria","Vernacular":"Pride-of-India"}
 						},
 						"d":{
 							"label": "Leaflets are toothed or lobed, not foul-smelling; the fruit is a papery capsule",
@@ -601,7 +601,7 @@
 							"label": "Lower part of the leaf is divided into 1–4 pairs of leaflets, the upper part is lobed in places but not completely divided",
 							"img": "images/key3-step6-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Service trees"
+							"result": {"Genus":"Sorbus","Taxon":"Sorbus domestica","Vernacular":"Service-trees"}
 						},
 						"b":{
 							"label": "Leaves are completely divided into 6 or more pairs of leaflets",
@@ -617,13 +617,13 @@
 							"label": "Ripe fruits are orange-red to vermillion-red or occasionally yellow, with yellow pulp",
 							"img": "images/key3-step7-a.jpg",
 							"credit": "&copy; Boris Hrasovec, Faculty of Forestry, Croatia",
-							"result": "Rowans with orange or vermillion fruit"
+							"result": {"Genus":"Sorbus","Taxon":"Sorbus aucuparia","Vernacular":"Rowans with orange or vermillion fruit"}
 						},
 						"b":{
 							"label": "Ripe fruits are white to pink or crimson, with white pulp",
 							"img": "images/key3-step7-b.jpg",
 							"credit": "&copy;  Jean-Pol Grandmont",
-							"result": "Rowan with white, pink or crimson fruit"
+							"result": {"Genus":"Sorbus","Taxon":"Sorbus aucuparia","Vernacular":"Rowan with white, pink or crimson fruit"}
 						}
 					}
 				}
@@ -654,13 +654,13 @@
 							"label": "Leaves are white- or green-felted on the underside; fruit is an acorn; flowers are green, the male flowers are in slender catkins",
 							"img": "images/key4-step2-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Evergreen oak"
+							"result": {"Genus":"Quercus","Taxon":"Quercus ilex","Vernacular":"Evergreen Oak"}
 						},
 						"b":{
 							"label": "Leaves are paler but hairless on the underside; fruit is a berry; flowers are white and in small clusters",
 							"img": "images/key4-step2-b.jpg",
 							"credit": "&copy; Hans Hillewaert",
-							"result": "Hollies"
+							"result": {"Genus":"Quercus","Taxon":"Ilex","Vernacular":"Hollies"}
 						}
 					}
 				},
@@ -686,19 +686,19 @@
 							"label": "Leaves smell of eucalyptus when crushed, or rarely of lemon, the edges are flat",
 							"img": "images/key4-step4-a.jpg",
 							"credit": "&copy; Forest & Kim Starr",
-							"result": "Eucalyptus"
+							"result": {"Genus":"Eucalyptus","Taxon":"Eucalyptus","Vernacular":"Eucalyptus"}
 						},
 						"b":{
 							"label": "Leaves smell of almonds when crushed; the edges are rolled under",
 							"img": "images/key4-step4-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Cherry laurel"
+							"result": {"Genus":"Prunus","Taxon":"Prunus laurocerasus","Vernacular":"Cherry laurel"}
 						},
 						"c":{
 							"label": "Leaves smell of bay when crushed, the edges are wavy",
 							"img": "images/key4-step4-c.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Bay"
+							"result": {"Vernacular":"Bay"}
 						}
 					}
 				},
@@ -724,13 +724,13 @@
 							"label": "Flowers are on their own",
 							"img": "images/key4-step6-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Evergreen magnolias"
+							"result": {"Genus":"Magnolia","Taxon":"Magnolia","Vernacular":"Evergreen magnolias"}
 						},
 						"b":{
 							"label": "Flowers are in clusters",
 							"img": "images/key4-step6-b.jpg",
 							"credit": "&copy; Karduelis",
-							"result": "Rhododendrons"
+							"result": {"Genus":"Rhododendron","Taxon":"Rhododendron","Vernacular":"Rhododendrons"}
 						}
 					}
 				},
@@ -740,25 +740,25 @@
 							"label": "Flowers are roughly 1cm long, urn-shaped and in small drooping clusters; the fruit is a warty, matt-red berry",
 							"img": "images/key4-step7-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Strawberry tree"
+							"result": {"Genus":"Arbutus","Taxon":"Arbutus unedo","Vernacular":"Strawberry-tree"}
 						},
 						"b":{
 							"label": "Flowers are 3–5.5cm long, bell-shaped and in large rounded clusters; the fruit is a capsule",
 							"img": "images/key4-step6-b.jpg",
 							"credit": "&copy; Andreas Praefcke",
-							"result": "Rhododendrons"
+							"result": {"Genus":"Rhododendron","Taxon":"Rhododendron","Vernacular":"Rhododendrons"}
 						},
 						"c":{
 							"label": "Flowers are 1–1.5cm across and flat, with up to 100 in erect spikes; the fruit is a smooth, shiny black berry",
 							"img": "images/key4-step5-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Portugal laurel"
+							"result": {"Genus":"Prunus","Taxon":"Prunus lusitanica","Vernacular":"Portugal laurel"}
 						},
 						"d":{
 							"label": "Flowers are less than 1cm across, flat and in clusters; the fruit is a red, orange or blue-black berry",
 							"img": "images/key4-step7-d.jpg",
 							"credit": "&copy; Dave Emley, Keele University",
-							"result": "Cotoneasters"
+							"result": {"Genus":"Crataegus","Taxon":"Crataegus integrifolia","Vernacular":"Cotoneasters"}
 						}
 					}
 				}
@@ -773,7 +773,7 @@
 							"label": "Leaves are fan-shaped with a central notch",
 							"img": "images/key5-step1-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Maidenhair tree"
+							"result": {"Genus":"Ginkgo","Taxon":"Ginkgo biloba","Vernacular":"Maidenhair-tree"}
 						},
 						"b":{
 							"label": "Leaves are not fan-shaped",
@@ -821,13 +821,13 @@
 							"label": "Some leaves are lobed and all are toothed; the fruit resembles a raspberry, red or purple when ripe",
 							"img": "images/key5-step4-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Mulberry"
+							"result": {"Genus":"Morus","Taxon":"Morus","Vernacular":"Mulberry"}
 						},
 						"b":{
 							"label": "All leaves are lobed; the fruit is pear-shaped and brownish purple when ripe",
 							"img": "images/key5-step4-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Fig"
+							"result": {"Genus":"Ficus","Taxon":"Ficus carica","Vernacular":"Fig"}
 						}
 					}
 				},
@@ -837,13 +837,13 @@
 							"label": "Twigs are thorny",
 							"img": "images/key5-step5-a.jpg",
 							"credit": "&copy; Rasbak",
-							"result": "Hawthorns"
+							"result": {"Genus":"Crataegus","Taxon":"Crataegus","Vernacular":"Hawthorns"}
 						},
 						"b":{
 							"label": "Twigs are not thorny",
 							"img": "images/key5-step2-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Whitebeams"
+							"result": {"Genus":"Sorbus","Taxon":"Sorbus","Vernacular":"Whitebeams"}
 						}
 					}
 				},
@@ -853,7 +853,7 @@
 							"label": "Leaves are not toothed",
 							"img": "images/key5-step6-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Cotoneasters"
+							"result": {"Genus":"Crataegus","Taxon":"Crataegus integrifolia","Vernacular":"Cotoneasters"}
 						},
 						"b":{
 							"label": "Leaves are toothed",
@@ -885,13 +885,13 @@
 							"label": "Flowers are less than 10mm in diameter, the petals are broadly oval; the fruit is smooth at the apex",
 							"img": "images/key5-step7-a.jpg",
 							"credit": "&copy; Nova",
-							"result": "Bird cherries"
+							"result": {"Genus":"Prunus","Taxon":"Prunus padus","Vernacular":"Bird cherries"}
 						},
 						"b":{
 							"label": "Flowers are more than 10mm in diameter, the petals are narrow and strap-shaped; the fruit is crowned with the withered sepals",
 							"img": "images/key5-step8-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Amelanchier"
+							"result": {"Genus":"Amelanchier","Taxon":"Amelanchier","Vernacular":"Juneberry"}
 						}
 					}
 				},
@@ -917,7 +917,7 @@
 							"label": "Twigs are very thorny",
 							"img": "images/key5-step10-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Blackthorn"
+							"result": {"Genus":"Prunus","Taxon":"Prunus spinosa","Vernacular":"Blackthorn"}
 						},
 						"b":{
 							"label": "Twigs are not thorny or have only occasional thorns",
@@ -949,7 +949,7 @@
 							"label": "Fruit has a velvety skin, even when fully ripe",
 							"img": "images/key5-step12-a.jpg",
 							"credit": "&copy; Tobias Maschler",
-							"result": "Peach and almond"
+							"result": {"Genus":"Prunus","Taxon":"Prunus persica","Vernacular":"Peach and almond"}
 						},
 						"b":{
 							"label": "Fruit has a smooth skin, often with a greyish waxy bloom on the skin",
@@ -965,13 +965,13 @@
 							"label": "Young twigs are green, smooth and glossy",
 							"img": "images/key5-step13-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Cherry plum"
+							"result": {"Genus":"Prunus","Taxon":"Prunus cerasifera","Vernacular":"Cherry Plum"}
 						},
 						"b":{
 							"label": "Young twigs are brown or grey, dull and often hairy",
 							"img": "images/key5-step13-b.jpg",
 							"credit": "&copy; University of Arkansas Division of Agriculture",
-							"result": "Plum"
+							"result": {"Genus":"Prunus","Taxon":"Prunus domestica","Vernacular":"Plum"}
 						}
 					}
 				},
@@ -997,13 +997,13 @@
 							"label": "Twigs are thorny or spiny, sometimes with very few spines",
 							"img": "images/key5-step15-a.jpg",
 							"credit": "&copy; Nadiatalent",
-							"result": "Cockspur-thorns"
+							"result": {"Genus":"Crataegus","Taxon":"Crataegus crus-galli","Vernacular":"Cockspurthorns"}
 						},
 						"b":{
 							"label": "Twigs are not thorny",
 							"img": "images/key5-step2-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Whitebeams"
+							"result": {"Genus":"Sorbus","Taxon":"Sorbus","Vernacular":"Whitebeams"}
 						}
 					}
 				},
@@ -1013,7 +1013,7 @@
 							"label": "Fruit is usually pear-shaped, with gritty flesh; styles are not joined together at the base",
 							"img": "images/key5-step16-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Pears"
+							"result": {"Genus":"Pyrus","Taxon":"Pyrus","Vernacular":"Pears"}
 						},
 						"b":{
 							"label": "Fruit is usually apple-shaped, the flesh is not gritty; styles are joined together at the base",
@@ -1029,13 +1029,13 @@
 							"label": "Fruits less than 4cm long",
 							"img": "images/key5-step17-a.jpg",
 							"credit": "&copy;  The Dow Gardens Archive, Dow Gardens, United States",
-							"result": "Crab apple"
+							"result": {"Genus":"Malus","Taxon":"Malus sylvestris","Vernacular":"Crab apple"}
 						},
 						"b":{
 							"label": "Fruits more than 4cm long",
 							"img": "images/key5-step17-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Apples"
+							"result": {"Genus":"Malus","Taxon":"Malus pumila","Vernacular":"Apples"}
 						}
 					}
 				}
@@ -1066,7 +1066,7 @@
 							"label": "Leaves are square or notched at the tip; the flowers are up to 5cm long and are on their own",
 							"img": "images/key6-step2-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Tulip tree"
+							"result": {"Genus":"Liriodendron","Taxon":"Liriodendron tulipifera","Vernacular":"Tulip-tree"}
 						},
 						"b":{
 							"label": "Leaves are rounded or pointed at the tip; the flowers are much smaller, in clusters or catkins",
@@ -1082,7 +1082,7 @@
 							"label": "Leaves are pinnately lobed; the fruit is an acorn",
 							"img": "images/key6-step3-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Oaks"
+							"result": {"Genus":"Quercus","Taxon":"Quercus","Vernacular":"Oaks"}
 						},
 						"b":{
 							"label": "Leaves are palmately or irregularly lobed; the fruits form a catkin or globe-shaped head",
@@ -1098,7 +1098,7 @@
 							"label": "Leaves are felted with white or grey hairs on the underside",
 							"img": "images/key6-step4-a.jpg",
 							"credit": "&copy; Richard Old, XID Services, Inc., United States",
-							"result": "White poplar"
+							"result": {"Genus":"Populus","Taxon":"Populus alba","Vernacular":"White poplar"}
 						},
 						"b":{
 							"label": "Leaves are smooth or sparsely hairy on the underside",
@@ -1114,13 +1114,13 @@
 							"label": "Bark is flaking in large patches; the fruits form a soft, hairy ball like a pom-pom",
 							"img": "images/key6-step5-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Plane"
+							"result": {"Genus":"Platanus","Taxon":"Platanus","Vernacular":"Plane"}
 						},
 						"b":{
 							"label": "Bark is fissured, not flaking; the fruits form a stiff, spiky ball like the head of a mace",
 							"img": "images/key6-step5-b.jpg",
 							"credit": "&copy; Andrea Moro",
-							"result": "Sweet-gum"
+							"result": {"Genus":"Liquidambar","Taxon":"Liquidambar styraciflua","Vernacular":"Sweet-gum"}
 						}
 					}
 				},
@@ -1146,13 +1146,13 @@
 							"label": "Tree is weeping, the twigs and smaller branches hang loosely; the bark has black, diamond-shaped splits",
 							"img": "images/key6-step7-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Silver birch"
+							"result": {"Genus":"Betula","Taxon":"Betula pendula","Vernacular":"Silver Birch"}
 						},
 						"b":{
 							"label": "Tree is not weeping; the bark is often peeling but doesn’t have black diamond-shaped splits",
 							"img": "images/key6-step7-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "White or Himalayan birch"
+							"result": {"Genus":"Betula","Taxon":"Betula utilis","Vernacular":"White or Himalayan birch"}
 						}
 					}
 				},
@@ -1178,7 +1178,7 @@
 							"label": "Leaf edges are coarsely toothed, the teeth end in a softly spiny tip; the seeds are enclosed in a softly spiny husk",
 							"img": "images/key6-step9-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Sweet chestnut"
+							"result": {"Genus":"Castanea","Taxon":"Castanea sativa","Vernacular":"Sweet Chestnut"}
 						},
 						"b":{
 							"label": "Leaf edges are not indented but may have small, fine teeth; the seeds have a plume of silky hairs at one end",
@@ -1194,13 +1194,13 @@
 							"label": "Tree is weeping, the smaller branches hang downwards, often almost to the ground",
 							"img": "images/key6-step10-a.jpg",
 							"credit": "&copy; KoS",
-							"result": "Weeping willow"
+							"result": {"Genus":"Salix","Taxon":"Salix babylonica","Vernacular":"Weeping Willow"}
 						},
 						"b":{
 							"label": "Tree is not weeping",
 							"img": "images/key6-step10-b.jpg",
 							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
-							"result": "Willows"
+							"result": {"Genus":"Salix","Taxon":"Salix","Vernacular":"Willows"}
 						}
 					}
 				},
@@ -1210,7 +1210,7 @@
 							"label": "Fruit is a small, woody cone, they are numerous and stay on the tree until spring",
 							"img": "images/key6-step11-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Alders"
+							"result": {"Genus":"Betula","Taxon":"Alnus","Vernacular":"Alders"}
 						},
 						"b":{
 							"label": "Fruit is not a woody cone",
@@ -1248,7 +1248,7 @@
 							"label": "Leaves are almost circular; flowers are pea-like and found on the trunk and main branches as well as the twigs",
 							"img": "images/key6-step12-a.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Judas tree"
+							"result": {"Genus":"Cercis","Taxon":"Cercis siliquastrum","Vernacular":"Judas tree"}
 						},
 						"b":{
 							"label": "Leaves are oval or egg-shaped; flowers aren't pea-like",
@@ -1264,13 +1264,13 @@
 							"label": "Leaves are flat and 15cm or more in length; the flowers have 5 or more large petals that are white or pink; the fruit is cone-like but not woody",
 							"img": "images/key6-step14-a.jpg",
 							"credit": "&copy; KENPEI",
-							"result": "Magnolias"
+							"result": {"Genus":"Magnolia","Taxon":"Magnolia","Vernacular":"Magnolias"}
 						},
 						"b":{
 							"label": "Leaves are up to 9cm long with wavy edges; the flowers are greenish and don’t have petals; the fruit has a spiny husk",
 							"img": "images/key6-step14-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Beech"
+							"result": {"Genus":"Fagus","Taxon":"Fagus sylvatica","Vernacular":"Beech"}
 						}
 					}
 				},
@@ -1280,13 +1280,13 @@
 							"label": "Flowers and fruits are in clusters suspended beneath an oblong, wing-shaped bract; the leaves are roughly heart-shaped",
 							"img": "images/key6-step15-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Limes"
+							"result": {"Genus":"Tilia","Taxon":"Tilia","Vernacular":"Limes"}
 						},
 						"b":{
 							"label": "Flowers and fruits are in cylindrical catkins; the leaves are oval to oblong",
 							"img": "images/key6-step15-b.jpg",
 							"credit": "&copy; Robert Vidéki, Doronicum Kft., Hungary",
-							"result": "Willows"
+							"result": {"Genus":"Salix","Taxon":"Salix","Vernacular":"Willows"}
 						}
 					}
 				},
@@ -1296,7 +1296,7 @@
 							"label": "Flowers are in small clusters; the fruit is a seed surrounded by a papery wing",
 							"img": "images/key6-step16-a.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Elms"
+							"result": {"Genus":"Ulmus","Taxon":"Ulmus procer","Vernacular":"Elms"}
 						},
 						"b":{
 							"label": "Flowers are in slender, hanging catkins; the fruit is a nut",
@@ -1312,13 +1312,13 @@
 							"label": "Leaves hairy on both surfaces; fruits are solitary or in clusters of a few; each nut is wrapped in a leafy sheath",
 							"img": "images/key6-step16-b.jpg",
 							"credit": "&copy; H Zell",
-							"result": "Hazels"
+							"result": {"Genus":"Corylus","Taxon":"Corylus","Vernacular":"Hazels"}
 						},
 						"b":{
 							"label": "Leaves hairy only on veins on the underside; fruits are in a hanging catkin, paired nuts are attached to a large, 3-lobed, bract",
 							"img": "images/key6-step17-b.jpg",
 							"credit": "&copy; Università di Trieste, Dipartimento di Biologia. Photo: Andrea Moro",
-							"result": "Hornbeam"
+							"result": {"Genus":"Carpinus","Taxon":"Carpinus betulu","Vernacular":"Hornbeam"}
 						}
 					}
 				}
@@ -1349,13 +1349,13 @@
 							"label": "Leaves hairless or with white hairs along midrib, sometimes only where veins join; flowers 10-15mm across",
 							"img": "images/key7-step2-a.jpg",
 							"credit": "&copy; USDA Forest Service – Ogden Archive, USDA Forest Service, Bugwood.org",
-							"result": "Bird cherries"
+							"result": {"Genus":"Prunus","Taxon":"Prunus cornuta","Vernacular":"Bird-Cherry"}
 						},
 						"b":{
 							"label": "Leaves have rusty or orange hairs underneath, each side of the midrib; flowers 8mm across",
 							"img": "images/key7-step2-b.jpg",
 							"credit": "&copy; Bill Cook, Michigan State University, Bugwood.org",
-							"result": "Rum cherry"
+							"result": {"Genus":"Prunus","Taxon":"Prunus serotina","Vernacular":"Rum Cherry"}
 						}
 					}
 				},
@@ -1387,13 +1387,13 @@
 							"label": "Sepal edges are toothed; leaves hairless on the upper side with hairy veins on the underside",
 							"img": "images/key7-step4-a.jpg",
 							"credit": "&copy; Wendy Cutler/VCBF",
-							"result": "Spring cherries"
+							"result": {"Genus":"Prunus","Taxon":"Prunus subhirtella","Vernacular":"Spring cherries"}
 						},
 						"b":{
 							"label": "Sepal edges not toothed; leaves hairy on both surfaces",
 							"img": "images/key7-step4-b.jpg",
 							"credit": "&copy; David Emley, Keele University",
-							"result": "Fuji cherry"
+							"result": {"Genus":"Prunus","Taxon":"Prunus incisa","Vernacular":"Fuji cherry"}
 						}
 					}
 				},
@@ -1403,13 +1403,13 @@
 							"label": "Bark on trunk and branches very glossy, purplish-brown and peeling in thin, copper-brown strips",
 							"img": "images/key7-step5-a.jpg",
 							"credit": "&copy; Henk Meijers",
-							"result": "Tibetan cherry"
+							"result": {"Genus":"Prunus","Taxon":"Prunus serrula","Vernacular":"Tibetan cherry"}
 						},
 						"b":{
 							"label": "Bark mostly dull grey or brown, sometimes peeling to reveal shiny red-brown on the trunk",
 							"img": "images/key7-step5-b.jpg",
 							"credit": "&copy; Bob Press",
-							"result": "Japanese cherries"
+							"result": {"Genus":"Prunus","Taxon":"Prunus serrulata","Vernacular":"Japanese cherries"}
 						}
 					}
 				},
@@ -1419,7 +1419,7 @@
 							"label": "Flowers less than 20mm across, on stalks up to 15mm long, not arising from a central point; fruit less than 10mm long",
 							"img": "images/key7-step6-a.jpg",
 							"credit": "&copy; Jean Tosti",
-							"result": "St Lucie cherries"
+							"result": {"Genus":"Prunus","Taxon":"Prunus mahaleb","Vernacular":"St Lucie cherries"}
 						},
 						"b":{
 							"label": "Flowers more than 20mm across, on stalks more than 15mm long, arising from a central point; fruit more than 10mm long",
@@ -1435,13 +1435,13 @@
 							"label": "Flowers cup-shaped; leaves dull on the upper side, sparsely hairy on the underside",
 							"img": "images/key7-step7-a.jpg",
 							"credit": "&copy; böhringer friedrich",
-							"result": "Wild cherry"
+							"result": {"Genus":"Prunus","Taxon":"Prunus avium","Vernacular":"Wild cherry"}
 						},
 						"b":{
 							"label": "Flowers saucer-shaped; leaves glossy on the upper side, hairless on the underside",
 							"img": "images/key7-step7-b.jpg",
 							"credit": "&copy; Bogdan Janus",
-							"result": "Morello cherry"
+							"result": {"Genus":"Prunus","Taxon":"Prunus cerasus","Vernacular":"Morello cherry"}
 						}
 					}
 				}
