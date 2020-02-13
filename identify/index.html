@@ -21,6 +21,7 @@
 			S().ajax(file,{
 				"this": this,
 				"dataType": "json",
+				"cache": false,
 				"success": function(d){
 					this.tree = d;
 					this.init();
@@ -33,17 +34,18 @@
 		
 			this.init = function(){
 			
-				S('#btn-start').css({'display':'block'}).on('click',{me:this},function(e){ e.data.me.start(); });
+				S('#start').css({'display':'block'}).on('click',{me:this},function(e){ e.data.me.start(); });
+
+				if(window.parent != window.self) S('.close').on('click',{me:this},function(e){ e.data.me.sendResult(); });
+				else S('.close').remove();
+
 				return this;
 			}
 
 
 			this.start = function(){
-				S('#splash').css({'display':'none'});
-				S('#decision').css({'display':'block'});
+				S('#start').css({'display':'none'});
 				this.showDecision(this.key,this.step);
-				
-				
 				return this;
 			}
 			
@@ -58,7 +60,7 @@
 				for(var o in st.options){
 					html += '<li><div class="b5-bg">';
 					html += '<figure>';
-					if(st.options[o].img) html += '<div class="image-cropper leaf"><img src="'+st.options[o].img+'" alt="'+st.options[o].label+'" class="illustration" /></div>';
+					if(st.options[o].img) html += '<div class="image-cropper"><img src="'+st.options[o].img+'" alt="'+st.options[o].label+'" class="illustration" /></div>';
 					html += '<div class="credit">'+(st.options[o].credit||"&nbsp;")+'</div>';
 					html += '</figure>';
 					html += '<div class="content">';
@@ -72,7 +74,7 @@
 				if(st.more){
 					html += '<p class="more"><a href="'+st.more.url+'" target="_help">'+st.more.label+'</a></p>';
 				}
-				S('#decision .result').html('<p style="text-align:center;">Choose one of the following '+n+' option'+(n==1 ? '':'s')+'</p>'+html);
+				S('#decision .result').html(html);
 				
 				// Add events
 				for(var o in st.options){
@@ -91,16 +93,30 @@
 			}
 			
 			this.showAnswer = function(){
-				S('#decision .result').html('<div><h2>'+this.tree.keys[this.key].steps[this.step].options[this.option].result+'</h2><button class="thumb-button leaf">Select this type</button></div>');
+
+				S('#decision .result').html('<div><h2>'+this.tree.keys[this.key].steps[this.step].options[this.option].result.Vernacular+'</h2></div>');
+				if(window.parent!=window.self){
+					S('#decision .result h2').after('<button class="thumb-button leaf">Select this type</button>');
+					S('#decision .result button').on('click',{me:this},function(e){
+						e.preventDefault();
+						e.data.me.sendResult();
+					});
+				}
 				return this;
 			}
-		
+
+			this.sendResult = function(){
+				// Open in the Forester
+				window.parent.postMessage({ "referer": "DecisionTree", "tree": (this.key && this.step && this.option ? this.tree.keys[this.key].steps[this.step].options[this.option].result : {}) }, (document.referrer ? "https://odileeds.org":"*"));
+				return this;
+			}
+
 			this.numberOfResults = function(key,step,option){
 				if(typeof count!=="number") var count = 0;
 				var st = this.tree.keys[key].steps[step];
 				for(var o in st.options){
 					if((option && o==option) || (!option)){
-						if(typeof st.options[o]['result']==="string") count++;
+						if(typeof st.options[o]['result']==="object") count++;
 						if(typeof st.options[o]['goto']==="object"){
 							count += this.numberOfResults(st.options[o]['goto'].key,st.options[o]['goto'].step,"");
 						}
@@ -115,17 +131,19 @@
 	
 	</script>
 	<style>
-	header { position: relative; top: 0px; left: 0px; width:100%; text-align: center; line-height: 1.5em; }
-	header { padding-top: 1em; }
-	header h2 { margin-bottom: 0px; }
-	#main { position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow-y: auto; }
-	#btn-start { margin: auto; margin-top: 1em; }
-	#decision { padding: 2em; display: none; }
+	html,body {
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+	}
+	#IDer { padding-bottom: 2em; }
+	#IDer .close { margin-top: 0; }
+	#start { display: none; }
 	.grid > li > div { text-align: center; position: relative; }
 	.grid > li > div button { display: block; width: 100%; text-align: center; font-size: 1.5em; font-weight: bold; }
 	.description { min-height: 4.5em; }
-	.result { width: 100%; position: relative; }
-	.result > div { text-align: center; }
+	.result { min-height: 404px; width: 100%; position: relative; }
+	.result > div { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); text-align: center; }
 	.result > div button { margin: auto; }
 	
 	.image-cropper {
@@ -145,48 +163,46 @@
 	}
 	h2 a, h3 a, p a, p a:visited { color: inherit; }
 	h1 + p { margin-top: 1em; }
+	.header { text-align: left; margin-bottom: 1em; }
 	p.more { text-align: center; }
-	.credit { font-size: 0.8em; line-height: 1em; margin-top: 0.5em; color: #aaa; text-align: center; }
+	.credit { font-size: 0.8em; line-height: 1em; min-height: 2em; margin-top: 0.5em; color: #aaa; text-align: center; }
+	#message { position: fixed; bottom: 0px; left: 0px; width: 100%; text-align: center; line-height: 1em; }
 	#message > div { font-size: 0.8em; }
 	#message > div a { color: inherit; }
-	@media only screen and (max-width: 1020px) {
-		.credit { min-height: 2em; }
-	}
 	@media only screen and (max-width: 800px) {
 		.image-cropper { width: 112px; max-width: 100%; max-height: 112px; }
-		.doublepadded, #decision, .grid > li > a, .grid > li > div { padding: 1em; }
-		.grid > li > div button { margin-left: 0px; }
 	}
 	@media only screen and (max-width: 600px) {
 		.image-cropper { width: 112px; max-width: 100%; max-height: 112px; }
 		.grid.two > li, .grid > li { width: 100%; }
 		.description { min-height: auto; }
-		#main { padding-bottom: 4em; }
+		#IDer { padding-bottom: 4em; }
 	}
 	</style>
 </head>
 <body class="b6-bg">
 
-	<div id="splash" class="splash leaf modal">
-		<div>
-			<div class="centre-block">
-				<img src="../resources/tree.svg" />
-				<h1>Tree identifier</h1>
-				<p>Based on the <a href="https://www.nhm.ac.uk/content/dam/nhmwww/take-part/identify-nature/tree-identification-key.pdf">Natural History Museum's Tree identification key</a></p>
-			</div>
-			<div class="thumb">
-				<button id="btn-start" class="btn-go thumb-button leaf-accent">Start</button>
-			</div>
+
+	<div id="IDer" class="doublepadded">
+		<div class="close">&times;</div>
+		<div class="header">
+			<h2>Tree identifier</h2>
 		</div>
-	</div>
-	
-	<div id="main">
-		<section id="decision" class="doublepadded">
-			<div class="result holder">
+		<section id="decision">
+			<div class="result">
+				<div>
+					<p>This tool aims to help you identify a tree. </p>
+					<button id="start" class="btn-go thumb-button leaf">Start</button>
+				</div>
 			</div>
 		</section>
 	</div>
 
+	<div id="message" class="leaf">
+		<div class="holder padded">
+			Based on the <a href="https://www.nhm.ac.uk/content/dam/nhmwww/take-part/identify-nature/tree-identification-key.pdf">Natural History Museum's Tree identification key</a>		
+		</div>
+	</div>
 
 </body>
 </html>
